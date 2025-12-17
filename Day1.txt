@@ -1,0 +1,23 @@
+- Git is the engine: it handles version control, commits, branches, and merges.
+- GitHub is the garage: it stores your Git repositories online, making them accessible to others and adding collaboration tools.
+Here is the summary of the Git process that happened in your workflow:
+
+
+
+
+git init → Created a new Git repository at C:/Users/dell/Desktop/personal
+git add . → This command added all the files in the folder to the staging area.
+First commit attempt failed:Git couldn't identify your identity(name/email). It asked you to set them up.
+
+git config --global user.email "your email"
+
+git config --global user.name "your name"
+
+Git now knows who you are.
+
+git commit -m "my first commit" → Created your first commit with 2 files (index.html, style.css).
+git remote add origin https://github.com/lokesh331/personal-portfolio.git → This command has successfully
+git push -u origin main` → Error because your repo was on master, not main.
+Checked branch:git branch` → Verified you were on master.
+git branch -M master -> Specifies that the name of the branch will be master.
+Successful Push: git push -u origin master→ Code pushed to GitHub.Browser-based authentication done. → Created remote branch master and set it to track locally.  Final Status - Local repo initialized and committed. - GitHub remote repo connected. - Successfully pushed branch master. 
